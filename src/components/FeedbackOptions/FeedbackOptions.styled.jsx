@@ -8,13 +8,13 @@ export const ListButton = styled.ul`
 `
 
 export const ItemButton = styled.li`
-    &:not(:first-child){
-        margin-left: 16px;
+    :not(:last-child){
+        margin-right: 16px;
     }
 
 `
 
-export const Button = styled.li`
+export const Button = styled.button`
     cursor: pointer;
     border: 2px solid black;
     border-radius: 4px;
